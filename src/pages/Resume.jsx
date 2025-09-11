@@ -12,7 +12,7 @@ const Resume = () => {
   const personalInfo = {
     name: "Sachin Badgujar",
     title: "Full Stack Developer",
-    photo: "/public/profile.png",
+    photo: "/profile.png",
     email: "sachinbadgujar7777@gmail.com",
     phone: "+91 9322017280",
     location: "Pune, India",
