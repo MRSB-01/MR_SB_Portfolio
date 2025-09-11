@@ -237,7 +237,7 @@ const About = () => {
           <motion.div className="relative" variants={fadeIn}>
             <div className="w-full h-[550px] bg-indigo-100 rounded-2xl overflow-hidden">
               <img
-                src="/public/sky-shirt.png"
+                src="/sky-shirt.png"
                 alt="Sachin Badgujar"
                 className="h-full w-full object-cover"
               />
