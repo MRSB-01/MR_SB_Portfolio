@@ -8,6 +8,7 @@ import Skills from './pages/Skills';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import AIChatbot from './components/AIChatbot';
+import PageNotFound from './pages/PageNotFound';
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
         <Route path="/skills" element={<Skills />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<Resume />} />
+        <Route path="/*" element={<PageNotFound />} />
       </Routes>
     </div>
   );
