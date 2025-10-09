@@ -46,7 +46,9 @@ const Navbar = () => {
               to="/"
               className="text-2xl font-bold text-gray-900 hover:text-indigo-600 transition-colors duration-200"
             >
-              MR.SB
+              <div className="w-14 h-8 overflow-hidden">
+                <img className="w-full h-full" src="/logo.png" alt="" />
+              </div>
             </Link>
           </div>
 

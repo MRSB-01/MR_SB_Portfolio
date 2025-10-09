@@ -136,8 +136,8 @@ const About = () => {
   const experiences = [
     {
       role: "Full Stack Developer Intern",
-      company: "Tech Solutions Inc.",
-      period: "Jan 2024",
+      company: "SETTribe.",
+      period: "Dec 2024",
       description:
         "Developed and maintained web applications using React, Spring Boot, and MySQL. Implemented responsive designs and optimized application performance.",
       achievements: [
@@ -147,9 +147,9 @@ const About = () => {
       ],
     },
     {
-      role: "Full Stack Java Developer",
+      role: "Full Stack Web Developer",
       company: "Hruta Solutions",
-      period: "Jan 2025",
+      period: "Apr 2025",
       description:
         "Assisted in developing backend services using Spring Boot and gained experience in database design and API development.",
       achievements: [
@@ -207,7 +207,7 @@ const About = () => {
             <p className="text-gray-600 mb-4">
               I'm a passionate full-stack developer with expertise in both
               frontend and backend technologies. My journey in web development
-              started 3 years ago, and since then I've been dedicated to
+              started 2 years ago, and since then I've been dedicated to
               creating efficient, scalable, and user-friendly applications.
             </p>
             <p className="text-gray-600 mb-6">
@@ -218,14 +218,14 @@ const About = () => {
             </p>
             <div className="flex gap-4">
               <a
-                href="../assets/resume_UpSkill.pdf"
-                download="Web_Development_CV.pdf"
+                href="/MERN_resume_sachin_badgujar.pdf"
+                download="Sachin_Badgujar_Web_Development_Resume.pdf"
                 className="bg-indigo-600 text-white px-6 py-2 rounded-lg hover:bg-indigo-700 transition-colors duration-200"
               >
                 Web Development CV
               </a>
               <a
-                href="../assets/Sachin_Badgujar_Java_full_stack_resume.pdf"
+                href="/Java_full_stack_resume_sachin_badgujar.pdf"
                 download="Sachin_Badgujar_Java_Full_Stack_Resume.pdf"
                 className="border border-indigo-600 text-indigo-600 px-6 py-2 rounded-lg hover:bg-indigo-600 hover:text-white transition-colors duration-200"
               >
@@ -244,7 +244,7 @@ const About = () => {
             </div>
             <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg w-3/4">
               <h3 className="font-semibold text-gray-900 mb-2">
-                4+ Years of Experience
+                2+ Years of Experience
               </h3>
               <p className="text-gray-600 text-sm">
                 Building web applications with modern technologies

@@ -231,7 +231,7 @@ const Footer = () => {
               </div>
               <div>
                 <p className="text-gray-400 text-sm">Location</p>
-                <p className="text-white">Pune, India</p>
+                <p className="text-white">India</p>
               </div>
             </div>
             <div className="flex items-center justify-center md:justify-start">

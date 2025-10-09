@@ -369,15 +369,15 @@ const Home = () => {
               </p>
               <div className="flex gap-4">
                 <a
-                  href="../assets/resume_UpSkill.pdf"
-                  download="Web_Development_CV.pdf"
+                  href="/MERN_resume_sachin_badgujar.pdf"
+                  download="Sachin_Badgujar_Web_Development_Resume.pdf"
                   className="text-indigo-600 hover:text-indigo-700 font-medium"
                 >
                   Web Development CV
                 </a>
 
                 <a
-                  href="../assets/Sachin_Badgujar_Java_full_stack_resume.pdf"
+                  href="/Java_full_stack_resume_sachin_badgujar.pdf"
                   download="Sachin_Badgujar_Java_Full_Stack_Resume.pdf"
                   className="text-indigo-600 hover:text-indigo-700 font-medium"
                 >

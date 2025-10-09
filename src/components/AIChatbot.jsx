@@ -5,7 +5,7 @@ const AIChatbot = () => {
   const [messages, setMessages] = useState([
     {
       id: 1,
-      text: "Hello! I'm your AI assistant powered by Gemini. How can I help you today?",
+      text: "Hi! I'm your Gemini AI assistant by Sachin Badgujar (Web Developer). How can I help?",
       sender: "bot",
       timestamp: new Date(),
     },

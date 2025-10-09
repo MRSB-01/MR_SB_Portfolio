@@ -43,14 +43,14 @@ const Projects = () => {
       ],
       period: "Oct 2024 – Dec 2024",
       category: "Full Stack",
-      liveDemo: "#",
-      github: "#",
+      liveDemo: "https://authify-frontend-chi.vercel.app/",
+      github: "https://github.com/MRSB-01/Authify-frontend",
     },
     {
       id: 2,
-      title: "Smart Contact Manager",
+      title: "First Information Report (FIR)",
       description:
-        "Developed a contact management web app using Spring Boot, Hibernate, MySQL, HTML, CSS, JavaScript, and Tailwind CSS, enabling CRUD operations and efficient user data handling.",
+        "Online First Information Report (FIR) management platform built with React, Node.js, Express, MongoDB, Tailwind CSS, and Zod for validation. Deployed on Vercel.",
       techStack: [
         {
           name: "Spring Boot",
@@ -75,8 +75,8 @@ const Projects = () => {
       ],
       period: "Aug 2024 – Oct 2024",
       category: "Full Stack",
-      liveDemo: "#",
-      github: "#",
+      liveDemo: "https://fir-app-frontend.vercel.app/",
+      github: "https://github.com/MRSB-01/FIR-app-frontend",
     },
     {
       id: 3,
@@ -107,8 +107,8 @@ const Projects = () => {
       ],
       period: "Dec 2024 – Feb 2025",
       category: "Full Stack",
-      liveDemo: "#",
-      github: "#",
+      liveDemo: "https://chat-app-cyan-ten.vercel.app/",
+      github: "https://github.com/MRSB-01/chat-app",
     },
     {
       id: 4,
@@ -135,8 +135,8 @@ const Projects = () => {
       ],
       period: "Feb 2024 – Jun 2025",
       category: "AI Integration",
-      liveDemo: "#",
-      github: "#",
+      liveDemo: "https://ai-interview-mocker-inky.vercel.app/",
+      github: "https://github.com/VM-2004/AI-Interview-mocker",
     },
     {
       id: 5,
@@ -159,8 +159,8 @@ const Projects = () => {
       ],
       period: "Mar 2024 – May 2025",
       category: "AI Integration",
-      liveDemo: "#",
-      github: "#",
+      liveDemo: "https://ai-image-enhancer-three.vercel.app/",
+      github: "https://github.com/MRSB-01/AI-Image-Enhancer/tree/main",
     },
     {
       id: 6,
@@ -191,8 +191,8 @@ const Projects = () => {
       ],
       period: "Jan 2025 – Present",
       category: "SaaS",
-      liveDemo: "#",
-      github: "#",
+      liveDemo: "https://droply-eight.vercel.app/",
+      github: "https://github.com/MRSB-01/Droply/tree/main",
     },
   ];
 
@@ -307,6 +307,7 @@ const Projects = () => {
                 <div className="flex justify-between">
                   <motion.a
                     href={project.liveDemo}
+                    target="_blank"
                     className="flex items-center text-indigo-600 hover:text-indigo-800 font-medium text-sm"
                     whileHover={{ x: 5 }}
                     transition={{ duration: 0.2 }}
@@ -329,6 +330,7 @@ const Projects = () => {
                   </motion.a>
                   <motion.a
                     href={project.github}
+                    target="_blank"
                     className="flex items-center text-gray-600 hover:text-gray-900 font-medium text-sm"
                     whileHover={{ x: 5 }}
                     transition={{ duration: 0.2 }}

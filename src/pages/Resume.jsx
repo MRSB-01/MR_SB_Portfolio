@@ -79,8 +79,8 @@ const Resume = () => {
   const experience = [
     {
       role: "Full Stack Developer Intern",
-      company: "Tech Solutions Inc.",
-      period: "Jan 2024",
+      company: "SETTribe.",
+      period: "Dec 2024",
       description:
         "Developed and maintained web applications using React and Spring Boot. Implemented responsive designs and optimized application performance.",
       achievements: [
@@ -91,8 +91,8 @@ const Resume = () => {
     },
     {
       role: "Full Stack Java Developer",
-      company: "CodeCraft Solutions",
-      period: "Jan 2025",
+      company: "Hruta Solutions",
+      period: "Apr 2025",
       description: "Assisted in building RESTful APIs and database management.",
       achievements: [
         "Developed RESTful APIs for a customer management system",
@@ -104,19 +104,19 @@ const Resume = () => {
   const projects = [
     {
       title: "Authentication System",
-      link: "#",
+      link: "https://authify-frontend-chi.vercel.app/",
       description: "Secure authentication platform with Spring Boot and React.",
       technologies: ["React", "Spring Boot", "MySQL", "Hibernate"],
     },
     {
-      title: "Smart Contact Manager",
-      link: "#",
-      description: "Contact management app with CRUD operations.",
+      title: "First Information Report (FIR)",
+      link: "https://fir-app-frontend.vercel.app/",
+      description: "Online First Information Report FIR management platform.",
       technologies: ["Java", "Spring Boot", "HTML", "CSS", "JavaScript"],
     },
     {
       title: "Real-Time Chat Application",
-      link: "#",
+      link: "https://chat-app-cyan-ten.vercel.app/",
       description: "MERN stack real-time chat app.",
       technologies: ["React", "Node.js", "MongoDB", "Socket.io"],
     },
@@ -488,7 +488,7 @@ const Resume = () => {
           transition={{ duration: 0.7, delay: 0.3 }}
         >
           <a
-            href="../assets/Sachin_Badgujar_Java_full_stack_resume.pdf"
+            href="/Java_full_stack_resume_sachin_badgujar.pdf"
             download="Sachin_Badgujar_Java_Full_Stack_Resume.pdf"
             className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-medium py-3 px-8 rounded-lg hover:from-indigo-700 hover:to-purple-700 transition-all duration-200 shadow-md"
           >
