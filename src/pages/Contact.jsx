@@ -47,7 +47,7 @@ const Contact = () => {
       setSubmitStatus({
         type: "error",
         message:
-          "Failed to send message. Please try again or contact me directly at contact@example.com",
+          "Failed to send message. Please contact me directly at sachinbadgujar7777@gmail.com",
       });
     } finally {
       setIsSubmitting(false);
